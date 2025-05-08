@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    background-color: green;
+    color: black;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+   
+
+    .left,.right {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        align-items: center; 
+    }
+
+
+    .center{
+        display: flex;
+        justify-content: center;
+    img{
+        width: 160px;
+        height: 66px;
+    }
+}
+
+}
+
+*{
+    margin: 0;
+}
+
